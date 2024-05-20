@@ -1,0 +1,25 @@
+/* src/FileExplorer.css */
+.file-explorer {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.file-item span {
+  margin-right: 10px;
+}
+
+.file-item button {
+  margin-left: 10px;
+}
+
+.folder-contents {
+  margin-left: 20px;
+}
